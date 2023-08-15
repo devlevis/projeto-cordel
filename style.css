@@ -10,9 +10,11 @@ h1 {
     font-size: 5em;
     margin-bottom: 5px;
     margin-top: 2px;
+    font-variant: small-caps;
 }
 p {
     font-family: 'Sriracha', Helvetica, sans-serif;
+    
 }
 header {
     background-color: black;
@@ -34,10 +36,12 @@ header a:hover {
     text-decoration: underline;
 }
 main p {
+    padding-left: 50px;
     font-size: 2em;
-    padding-left: 20px;
-    margin: 40px;
 
+}
+main {
+    margin: -8px;
 }
 #creditos {
     background-color: black;
@@ -58,4 +62,29 @@ main p {
 }
 #creditos a:hover {
     text-decoration: underline;
+}
+.imagem {
+    background-color: black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.59);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main p {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+.imagem > p {
+    color: black;
+    background-color: rgba(226, 235, 238, 0.42);
+    width: 400px;
+    text-shadow: 1px 1px 0px rgba(223, 208, 208, 0.697);
+}
+.imagem#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+.imagem#img2 {
+    background-image: url('imagens/background002.jpg');
 }
