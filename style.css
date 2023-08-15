@@ -16,9 +16,8 @@ p {
 }
 header {
     background-color: black;
-    margin: -20px;
-    padding-top: 15px;
-    padding-bottom: 8px;
+    padding: 20px;
+    margin: -8px;
 }
 header p {
     color: white;
@@ -42,7 +41,8 @@ main p {
 }
 #creditos {
     background-color: black;
-    margin: -20px;
+    margin: -8px;
+    margin-bottom: -17px;
 
 }
 #creditos p {
